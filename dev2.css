@@ -1,0 +1,588 @@
+
+BODY{
+background-color: #080404;
+color: #fff;
+margin: 0px;
+padding: 0px;
+
+}
+.pic{
+height:43vh;
+width: 14vh;
+padding-left: 161vh ;
+size: 5vh;
+padding-top: -13vh;
+margin-top: -87px;
+
+background-position: center;
+}
+
+.img{
+    PADDING: 61px;
+    height: 122px;
+    width: 248px;
+    margin-top: 38px;
+    margin-left: -44px;
+}
+nav{
+    background-color: rgb(133, 172, 190);
+    height: 69px;
+    width: 100%;
+}
+ 
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 50px;
+    margin-top: -16PX;
+}
+nav ul li a {
+color: rgb(39, 34, 34);
+font-size: 26px;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: bolder;
+font-weight: 500%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.con{
+    margin-top: 0 21px;
+    height: 313px;
+}
+.con h1{
+
+    font-size: 4vh;
+    padding-left: 247px;
+    margin-top: 350px;
+    list-style: armenian;
+    width: 322px;
+}
+
+.con h2{
+    font-size: 4vh;
+    padding-left: 247px;
+    margin-top: 97px;
+    list-style: armenian;
+
+    width: 152px;
+}
+
+.container  a:: {
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffff ;
+    text-decoration: none;
+    
+}
+.page{
+    margin-top: -14vh;
+}
+
+.tab-title{
+    
+    background-color: aliceblue;
+    height: 44px;
+    width: 33px;
+    display: block;
+    font-size: 33px;
+}
+.container nav ul li a::after{
+
+    content: '';
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -6;
+}
+.container a:hover{
+    background-color: rgb(235, 235, 240);
+}
+.con{
+    padding-top: 13px;
+    color: rgba(241, 246, 248, 0.925);
+    margin-top: -400px;
+    align-items: center;
+}
+.con p{ 
+font-size: 3vh;
+
+padding-left: 430px; 
+}
+.con  h1{ 
+padding-left: 420px; 
+font-size: 44px;
+}
+.con h2{ 
+font-size: 3vh;
+padding-left: 430px; 
+}
+
+/* for the mainu bar */
+
+
+
+
+.toggle{
+
+    cursor: pointer;
+}
+
+ bar{
+background: #999;
+height: 12px;
+position:relative;
+width: 19px;
+}
+.bar::before,.bar::after{
+background-color: aquamarine;
+height: 12px;
+position:absolute;
+width: 19px;
+}
+.bar::before{
+    top:5px;
+}
+.bar::after{
+top: -5px;
+}
+
+
+
+
+
+
+#about{
+    padding: 88px 0px;
+    
+    height: 122vh;
+    margin-top: 33px;
+    margin-bottom: 412px;
+    color: rgb(114, 27, 27); 
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{  
+    flex-basis: 35%;
+
+}
+.about-col-1 img{  
+    width: 73%;
+    border-radius: 53px;
+    margin-top: 344px;
+}
+.about-col-2 h1{ 
+    flex-basis: 60%;
+    margin-top: 287px; 
+    margin-right: 16vh;
+    
+} 
+.about-col-2 p{
+    color: rgb(146, 170, 118);
+    margin-left: 11vh;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.sub-title{
+     font-weight: bold;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-top: 68px;
+font-weight: 100;
+font-family: 'Times New Roman', Times, serif;
+font-stretch: expanded;
+margin-left: 111 vh;
+}
+
+
+.all {
+    width: 213vh;
+}
+.tab{
+    margin-left: 262px;
+
+}
+.tab-con{
+    margin-left: 262px;
+
+}
+
+.tab  p  {
+    display: inline-block;
+    color: aliceblue;
+padding: 30px;
+margin: 33px;
+font-size: 19px;
+font-weight: 100%;
+
+
+}
+.tab-link{
+    margin-right: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    font-size: 19px;
+
+    
+}
+
+.tab-link::after
+{
+    content: '';
+    width: 92%;
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 5px;
+    background-color: #9e5050;
+    position: absolute;
+    left: 12px;
+    right: 17px;
+    bottom: 24px;
+    transition: 0.5s;
+
+}
+tab-link.active-link:: after{
+    width: 30%;
+}
+
+.tab ul li{
+
+    list-style: none;
+    margin: 10px 0;
+
+}
+.tab-con ul li span{
+color: #e70e53;
+font-size: 15px;
+}
+
+.tab-con{
+    display: none;
+    color: aqua;
+}
+
+.tab-con.active-tab{
+    display: block;
+}
+
+/*---------service----*/
+#service{
+    padding: 13px;
+    
+}
+.containers h1{
+    margin-top: -633px;
+    padding: 322px;
+    text-align: center;
+
+}
+.service-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    margin-top: -312px;
+    
+}
+.service-list div{
+    background-color: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-right: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.service-list div h2{
+font-size: 30px;
+font-weight: 500 ;
+margin-bottom: 14px;
+}
+.service-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size:12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+
+/*----------portfolio---*/
+
+
+#portfolio{
+    padding: 2px;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: -33px;
+margin-inline: -26px;
+grid-row-gap: 1px;
+display: flex;
+    
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 110px;
+    margin: 29px;
+    display: grid;
+
+}
+.work img {
+    width: 30%;
+    border-radius: 32px;
+    display: block;
+    padding: 92px;
+    padding: 92px;
+    transition: transform 0.5s;
+    margin-top: 23px;
+    padding: 22px;
+    
+}
+
+
+
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0.6), #ff004f);
+    border-radius: 10px;
+position: absolute;
+left: 0;
+bottom: 0;
+overflow: hidden;
+display: flex;
+ align-items: center;
+ flex-direction: column;
+ padding: 0 40px;
+ text-align: center;
+ font-size: 13px;
+ transition: height;
+ margin-left: -43px;
+ grid-gap: 1px;
+
+}
+.layer h3{
+    font-size: 500;
+    margin-bottom:  20px;
+}
+.layer p{
+  margin: 0%;  
+}
+
+.layer a{
+ color: #ff004f;
+text-decoration: none;
+font-size: 18px;
+line-height: 60px;
+background: #fff;
+width: 60px;
+height: 60px;
+border-radius: 60px;
+text-align: center;
+
+}
+work::hover img {
+    transform: scale(1.1);
+
+}
+.work:hover .layer{
+    height: 100%;
+}
+
+.btm{
+    display: block;
+    margin:  50px auto;
+    width:  fit-content;
+    border: 1px solid #ff004f;
+    padding:  14px 40px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+
+
+}
+
+.btm:hover{
+    background-color: #ff004f;
+}
+
+.work-list work{
+    grid-gap: 20px;
+
+}
+
+/*---------contract---*/
+
+
+#contact{
+    margin-top: 222px;
+}
+
+.contact-left{
+flex-basis: 12px%;
+
+
+}
+.contact-right{
+    flex-basis: 60%;
+
+}
+.contact-left {
+padding: 23px;
+}
+
+.contact-left p{
+    margin-top: 0px;
+    margin-left: -3px;
+}
+.contact-left p i{
+    margin-top: 1px;
+    margin-left: 22px;
+    color: #ff004f;
+    font-size:  24px ;
+}
+.social-icon{
+    margin-top: 30px;
+    display: table-footer-group;
+    text-align: center;
+
+}
+.social-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline;
+}
+.btm.btm2{
+    display: inline-block;
+    background: #ff004f;
+    margin-top: 12px;
+    
+}
+.btm.btm2:hover{
+    
+    background-color: #181314;
+    border-radius: 10%;
+
+}
+.contact-right form{
+
+width: 74%;
+margin-left: 164px;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form btn2{
+    padding: 6px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.copyright{
+width: 100%;
+text-align: center;
+padding: 25px 0;
+background: #262626;
+font-weight: 300;
+margin-top: 2px;
+}
+
+.copyright i{
+color:#080404;
+}
+
+/*--------- css for small sceern ------*/
+nav.fas{
+    display: none; 
+}
+
+@media only screen and (max-width: 600px){
+
+ 
+
+    .header-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1{
+        font-size: 30px;
+    }
+
+.container nav.fas{
+    display: block; 
+    font-size: 25px;
+}  
+.container nav ul {
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 200px;
+    padding-top: 50px;
+}
+.container nav ul li{
+    display: block;
+    margin: 25px;
+
+}
+
+.container nav ul .fas{
+     position: absolute;
+     top: 25px;
+     left: 24px;
+     cursor: pointer;  
+}
+
+
+.checkbtn{
+font-size: 30px;
+color: white;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
+display: none;
+
+
+}
+
+
+
+
+
